@@ -81,19 +81,20 @@ const MyForms: React.FC = () => {
           </Button>
         </Box>
 
-                  <Paper sx={{ p: 4, textAlign: 'center' }}>
-            <Typography variant="h6" color="textSecondary" gutterBottom>
-              No forms created yet
-            </Typography>
-            <Button
-              variant="contained"
-              startIcon={<AddIcon />}
-              onClick={() => navigate('/create')}
-              size="large"
-            >
-              Create Your First Form
-            </Button>
-          </Paper>
+        <Paper sx={{ p: 4, textAlign: 'center' }}>
+          <Typography variant="h6" color="textSecondary" gutterBottom>
+            No forms created yet
+          </Typography>
+
+          <Button
+            variant="contained"
+            startIcon={<AddIcon />}
+            onClick={() => navigate('/create')}
+            size="large"
+          >
+            Create Your First Form
+          </Button>
+        </Paper>
       </Box>
     );
   }
