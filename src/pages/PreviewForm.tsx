@@ -298,9 +298,6 @@ const PreviewForm: React.FC = () => {
             <Typography variant="h6" gutterBottom>
               Form Preview
             </Typography>
-            <Typography variant="body2" color="textSecondary" sx={{ mb: 3 }}>
-              This is how your form will appear to end users. All validation rules and derived fields are active.
-            </Typography>
 
             <Box component="form" sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
               {currentForm.fields.map((field) => (

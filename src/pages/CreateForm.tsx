@@ -142,7 +142,7 @@ const CreateForm: React.FC = () => {
             {currentForm.fields.length === 0 ? (
               <Box sx={{ textAlign: 'center', py: 4 }}>
                 <Typography color="textSecondary">
-                  No fields added yet. Click "Add Field" to get started.
+                  Click "Add Field" to get started.
                 </Typography>
               </Box>
             ) : (
