@@ -299,7 +299,6 @@ const PreviewForm: React.FC = () => {
               Form Preview
             </Typography>
 
-
             <Box component="form" sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
               {currentForm.fields.map((field) => (
                 <Box key={field.id}>

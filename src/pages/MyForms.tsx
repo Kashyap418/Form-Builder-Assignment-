@@ -85,7 +85,6 @@ const MyForms: React.FC = () => {
           <Typography variant="h6" color="textSecondary" gutterBottom>
             No forms created yet
           </Typography>
-
           <Button
             variant="contained"
             startIcon={<AddIcon />}
